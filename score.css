@@ -12,7 +12,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: aquamarine;
-    background-position: fixed;
 }
 .guest, .home {
     margin:  25px auto;
