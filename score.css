@@ -1,0 +1,136 @@
+@import url('https://fonts.cdnfonts.com/css/ds-digital');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,600;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    
+}
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aquamarine;
+    background-position: fixed;
+}
+.guest, .home {
+    margin:  25px auto;
+    
+}
+.container  {
+    margin:33px auto;
+    background-color: rgb(7, 32, 103) !important; 
+    color: white;
+    display: flex;
+    width: 50%;
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    
+}
+.screens {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    margin: auto 10px;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+#home--btn, #guest--btn{
+    width: 155px;
+    height: 120px;
+    margin: 15px;
+    background-color: black;
+    color: rgb(255, 25, 25);
+    border: none;
+    font-size: 80px;
+    border-radius: 7px;
+    font-family: 'DS-Digital', sans-serif;
+}
+.operate {
+    width: 178px;
+    height: 55px;
+    padding-left: 10px;
+    margin-right: 0px;
+    /* border: 1px solid white; */
+}
+.operate > button {
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    background-color: transparent;
+    border: 2px solid rgb(219, 219, 219);
+    font-size: 18px;
+    color: rgb(209, 209, 209);
+    border-radius: 5px;
+}
+.operate > button:active {
+    background-color: rgb(167, 167, 167);
+}
+.Reset-game {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    margin-top: 0;
+}
+.winner {
+    display: flex;
+}
+.Reset-game > button {
+    background-color: rgb(163, 245, 0);
+    border: none;
+    padding: 20px 50px;
+    font-family:  monospace;    
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    color: rgb(39, 1, 99);
+    
+}
+.Reset-game > button:active {
+    background-color: rgba(171, 255, 2, 0.76);
+    color: black;
+    
+}
+.winner {
+    display: block;
+    margin: 10px;
+    font-family: monospace !important;
+}
+#winner {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 2px dashed  rgb(102, 102, 102);
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 5px 30px;
+    font-family: monospace;
+    
+}
+#winner:active {
+    background-color: rgb(3, 1, 128);
+    color: rgb(82, 0, 0);
+}
+#winner-p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    border: 1px dashed rgb(102, 102, 102);
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 100%;
+}
