@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="score.css">
+    <title>Match</title>
+</head>
+<body>
+    <div class="container">
+        <div class="screens">
+            <div class="home">
+                <h1 id="home-title">HOME</h1>
+                <button id="home--btn">0</button>
+                <div class="operate">
+                    <button id="btn-h-one" onclick="plusOne()">+1</button>
+                    <button id="btn-h-two" onclick="plusTwo()">+2</button>
+                    <button id="btn-h—three" onclick="plusThree()">+3</button>
+                </div>
+            
+            </div>    
+             <div class="winner">       
+            <button id="winner" onclick="checkWinner()">Winner</button>
+            <p id="winner-p"></p>
+             </div> 
+            <div class="guest">
+                <h1 id="guest-title">GUEST</h1>
+                <button id="guest--btn">0</button>
+                <div class="operate">
+                    <button id="btn-g-one" onclick="guestPlusOne()">+1</button>
+                    <button id="btn-g-two" onclick="guestPlusTwo()">+2</button>
+                    <button id="btn-g—three" onclick="guestPlusThree()">+3</button>
+                </div>
+                
+        </div>
+        </div>  
+          
+            <div class="Reset-game">
+                <button id="reset--btn" onclick="resetScore()">Reset Score</button>
+            </div>
+           
+    </div>
+    
+    <script src="score.js"></script>
+</body>
+
+</html>
