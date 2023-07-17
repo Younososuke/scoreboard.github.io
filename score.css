@@ -12,6 +12,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: aquamarine;
+    background-position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 .guest, .home {
     margin:  25px auto;
@@ -81,8 +87,9 @@ h1 {
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin: 20px auto;
+    margin: 50px auto;
     margin-top: 0;
+    
 }
 .winner {
     display: flex;
@@ -132,4 +139,29 @@ h1 {
     border-radius: 10px;
     padding: 10px 20px;
     width: 100%;
+}
+.save-section {
+    background-color: rgb(243, 255, 174);
+    width: 20%;
+    height: auto;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px auto;
+    border-radius: 10px;
+    padding: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    padding-right: 0px !important;
+}
+
+
+.save-section > ul {
+    list-style: none;
+    color: black !important;
+    width: 300px;
+    margin: 0;
+    position:  relative; 
+     left:-20% !
 }

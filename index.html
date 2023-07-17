@@ -20,7 +20,7 @@
             
             </div>    
              <div class="winner">       
-            <button id="winner" onclick="checkWinner()">Winner</button>
+            <button id="winner" onclick="saveGame()">Save Game</button>
             <p id="winner-p"></p>
              </div> 
             <div class="guest">
@@ -35,12 +35,17 @@
         </div>
         </div>  
           
-            <div class="Reset-game">
+            
+          
+    <div class="Reset-game">
                 <button id="reset--btn" onclick="resetScore()">Reset Score</button>
             </div>
-           
     </div>
     
+    <div class="save-section">
+        <ul id="matches"></ul>
+        
+    </div> 
     <script src="score.js"></script>
 </body>
 
